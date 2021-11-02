@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+b {
+    font-size: inherit;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Tinos'; /* , serif; */
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ----------------------------------- */
+
+._container {
+    max-width: 1110px;
+    margin: 0px auto;
+}
