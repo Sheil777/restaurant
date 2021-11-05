@@ -17,12 +17,18 @@ b {
     font-size: inherit;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     height: 100%;
     line-height: 1;
     font-size: 16px;
     color: #000;
     font-family: 'Tinos'; /* , serif; */
+
+    background-color: black;
 }
 
 .wrapper {
@@ -35,4 +41,144 @@ body {
 ._container {
     max-width: 1110px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box; /* Сам прибавляет padding */
+}
+
+.button_orange {
+    width: 157px;
+    height: 47px;
+    
+    text-transform: uppercase;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+    background-color: #FF7400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------------------------------- */
+
+.header {
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    height: 68px;
+}
+
+.header__logo {
+    
+}
+
+.header__logo img {
+    height: 68px;
+}
+
+.header__menu {
+    margin: 0 0 0 268px;
+    display: inline-block;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+    list-style-type: none;
+}
+
+.menu__item {
+    margin-right: 23px;
+}
+
+.menu__link {
+    text-transform: uppercase;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    white-space: nowrap;
+
+    transition: 0.5s;
+}
+
+.menu__link:hover {
+    color: #FF7400;
+}
+
+.header__basket {
+    height: 13px;
+}
+
+.header__def {
+    content: "";
+    display: inline-block;
+    height: 50px;
+    width: 2px;
+    background-color: white;
+    margin: 0 20px;
+}
+
+.header__feedback {
+    margin-top: 10px;
+}
+
+.header__phone {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.header__phone span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+
+    white-space: nowrap;
+}
+
+.header__text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    width: 155px;
+}
+
+.header__button {
+    margin-left: 45px;
+}
+
+.header__burger {
+    display: none;
 }

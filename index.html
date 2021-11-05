@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleAdaptive.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,16 +22,48 @@
     <div class="wrapper">
         <header class="header">
             <div class="header__container _container">
-                <a href="" class="header__logo"></a>
-                <div class="header__menu"></div>
-                <a href="" class="header__basket"></a>
+                <a href="" class="header__logo">
+                    <img src="img/LOGO.png" alt="Logo">
+                </a>
+                <nav class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Меню</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">О нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Бронь</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="" class="header__basket">
+                    <img src="img/cart.png" alt="Cart">
+                </a>
+                <div class="header__def"></div>
                 <div class="header__feedback">
-                    <div class="header__phone"></div>
-                    <div class="header__text"></div>
+                    <div class="header__phone">
+                        <img src="img/phone.png" alt="Phone">
+                        <span>+999-888-76-54</span>
+                    </div>
+                    <div class="header__text">
+                        Свяжитесь с нами для бронирования
+                    </div>
                 </div>
-                <div class="header__button"></div>
+                <div class="header__button button_orange">
+                    Заказ столика
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
             </div>
         </header>
     </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
