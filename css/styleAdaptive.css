@@ -1,6 +1,32 @@
+@media (max-width: 900px) {
+    .header__logo img {
+        height: 40px;
+    }
+
+    .header__phone span {
+        font-size: 12px;
+    }
+
+    .header__text {
+        font-size: 12px;
+        width: 115px;
+    }
+
+    .menu__link {
+        font-size: 10px;
+    }
+
+    .header__button {
+        width: 130px;
+        height: 42px;
+        font-size: 10px;
+    }
+}
+
 @media (max-width: 700px) {
     ._container {
         max-width: 700px;
+        width: auto;
     }
 
     .header {
