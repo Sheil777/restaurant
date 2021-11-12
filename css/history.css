@@ -1,5 +1,6 @@
 .history {
     margin-top: 150px;
+    height: 600px;
 }
 
 .history__main-information {
@@ -85,6 +86,8 @@
 @media (max-width: 1013px){
     .history {
         margin-top: 80px;
+        height: auto;
+        margin-bottom: 12vw;
     }
 
     .history__main-information {
