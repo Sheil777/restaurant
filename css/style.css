@@ -57,6 +57,14 @@ body {
     object-fit: cover;
 }
 
+._text-color-gold {
+    color: #BC9060;
+}
+
+._text-color-gold2 {
+    color: #D67E34;
+}
+
 .button_orange {
     width: 157px;
     height: 47px;

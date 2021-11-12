@@ -1,0 +1,158 @@
+.history {
+    margin-top: 150px;
+}
+
+.history__main-information {
+    width: 444px;
+}
+
+.history__container {
+    position: relative;
+}
+
+.history__head {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 20px;
+}
+
+.history__body {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #656363;
+
+    margin-bottom: 80px;
+}
+
+.history__count {
+    padding: 0 60px;
+}
+
+.history-count {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-count__item {
+    width: 85px;
+}
+
+.history-count__top {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #BC9060;
+}
+
+.history-count__bottom {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.history__collage {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+
+/* ----- Adaptive ---------------------------------- */
+
+@media (max-width: 1013px){
+    .history {
+        margin-top: 80px;
+    }
+
+    .history__main-information {
+        width: 100%;
+        padding: 0 14vw;
+        box-sizing: border-box;
+
+        margin-bottom: 80px;
+    }
+
+    .history__head {
+        margin-bottom: 40px;
+    }
+
+    .history__body {
+        font-size: 20px;
+    }
+
+    .history__collage {
+        position: static;
+        text-align: center;
+    }
+}
+
+
+/* ------ Phone ------------ */
+@media (max-width: 700px){
+    .history {
+        margin-top: 12vw;
+    }
+
+    .history__count {
+        padding: 0;
+    }
+
+    .history-count {
+        justify-content: space-around;
+    }
+
+    .history__main-information {
+        padding: 0 4vw;
+    }
+
+    .history__head {
+        font-size: 11vw;
+        margin-bottom: 12vw;
+    }
+
+    .history__body {
+        font-size: 4vw;
+        line-height: normal;
+        margin-bottom: 10vw;
+    }
+
+    .history-count__item {
+        width: 18vw;
+    }
+
+    .history-count__top {
+        font-size: 8vw;
+        line-height: 10vw;
+    }
+
+    .history-count__bottom {
+        font-size: 4vw;
+    }
+
+    .history__collage img {
+        width: 98%;
+    }
+}
