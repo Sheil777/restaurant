@@ -1,0 +1,211 @@
+.daily-offers {
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+
+.daily-offers__container {
+    position: relative;
+    overflow: hidden;
+}
+
+.daily-offers__header {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+
+    color: #000000;
+
+    text-align: center;
+}
+
+.daily-offers__body {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 140px;
+}
+
+.daily-offers__image {
+    margin-right: 30px;
+
+}
+
+.daily-offers__image img {
+    
+}
+
+.daily-offers__rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.daily-offers__item {
+    display: flex;
+}
+
+.daily-offers__item-img {
+    margin-right: 30px;
+}
+
+
+.daily-offers__text {
+    display: flex;
+}
+
+.daily-offers__name {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    
+    color: #000000;
+
+    max-width: 445px;
+    margin-top: 40px;
+
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.daily-offers__name::after {
+    display: inline-block;
+    content: "----------------------------------------------";
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+
+    margin-left: 10px;
+    
+}
+
+.daily-offers__price {
+    position: absolute;
+    right: 0;
+
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    
+    color: #000000;
+    
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: white;
+
+}
+
+
+
+/* ---------------------------------- */
+@media (max-width: 1000px) {
+    .daily-offers__body {
+        flex-direction: column;
+        margin-top: 90px;
+    }
+
+    .daily-offers__image {
+        margin: 0 auto;
+    }
+
+    .daily-offers__rows {
+        width: auto;
+        margin: 60px auto 0 auto;
+    }
+
+    .daily-offers__item {
+        margin-bottom: 30px;
+    }
+
+    .daily-offers__text {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .daily-offers__name::after {
+        display: none;
+    }
+
+    .daily-offers__price {
+        position: unset;
+        padding: 0;
+        margin: 10px auto;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+    .daily-offers {
+        padding-top: 20vw;
+    }
+
+    .daily-offers__container {
+        padding: 0;
+    }
+
+    .daily-offers__header {
+        font-size: 14vw;
+        line-height: 16vw;
+    }
+
+    .daily-offers__header span {
+        display: block;
+    }
+
+    .daily-offers__body {
+        margin-top: 20vw;
+    }
+
+    .daily-offers__image {
+        width: 100%;
+        min-width: 478px;
+    }
+
+    .daily-offers__image img {
+        width: 100%;
+        min-width: 478px;
+        object-fit: cover;
+    }
+
+    .daily-offers__rows {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 60px 0 0 0;
+    }
+
+    .daily-offers__item-img {
+        flex: 0 0 33.3%;
+    }
+
+    .daily-offers__item-img img {
+        width: 100%;
+    }
+
+    .daily-offers__text {
+        justify-content: center;
+        font-size: 7vw;
+    }
+
+    .daily-offers__name, .daily-offers__price {
+        font-size: inherit;
+        line-height: 8vw;
+    }
+
+    .daily-offers__name {
+        margin: 0;
+    }
+
+    .daily-offers__item {
+        margin-bottom: 10vw;
+    }
+
+
+}
