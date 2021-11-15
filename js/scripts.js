@@ -40,3 +40,13 @@ new Swiper('.our-menu__slider',{
     // Скорость прокрутки
     speed: 600,
 });
+
+
+new Swiper('.testimonial__slider',{
+    pagination: {
+        el: '.testimonial__pagination',
+        clickable: true,
+    },
+    
+    spaceBetween: 60, // Отступы между слайдами
+});
