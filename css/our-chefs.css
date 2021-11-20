@@ -1,0 +1,30 @@
+.our-chefs {
+    padding-bottom: 100px;
+}
+
+.our-chefs__gallery {
+    display: flex;
+}
+
+.our-chefs__item {
+    flex: 0 1 33.3%;
+    padding: 0 0 42% 0;
+    margin: 0 15px;
+}
+
+.our-chefs__item img {
+    object-position: top;
+}
+
+@media (max-width: 700px)
+{
+    .our-chefs__gallery {
+        display: block;
+    }
+
+    .our-chefs__item {
+        padding: 0 0 150% 0;
+        margin: 5vw;
+    }
+
+}
