@@ -4,6 +4,7 @@ $(document).ready(
           function (event) {
               $('div.header__burger').toggleClass('header__burger_close');
               $('nav.header__menu').toggleClass('header__menu_phone');
+              $('body').toggleClass('lock');
           }
         );
     }
